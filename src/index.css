@@ -24,3 +24,7 @@ body {
 .text-light-cyan {
   color: var(--light-cyan);
 }
+
+.text-neon-green {
+  color: var(--neon-green);
+}
