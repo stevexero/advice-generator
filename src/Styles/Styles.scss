@@ -1,0 +1,31 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  max-width: 540px;
+  background-color: var(--dark-grayish-blue);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    margin-top: 2rem;
+  }
+
+  .rule {
+    width: 100%;
+    display: flex;
+
+    hr {
+      width: 100%;
+      height: 1px;
+      border: 1px solid var(--grayish-blue);
+    }
+  }
+}
